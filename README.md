@@ -7,3 +7,20 @@ This project is a voice-controlled email assistant designed to help visually imp
 
 + **Email Management** :
   + **Read Emails** : Fetches and reads aloud the most recent emails.
+  + **Compose Emails** : Allows users to compose and send emails entirely through voice commands.
+  + **Email Scheduling** : Lets users schedule emails to be sent at a specific time using natural language input.
+
++ **Text-to-Speech**: Provides audio feedback, reading out emails, prompts, and confirmation messages using pyttsx3.
+
+## Tech Stack
++ Python
++ SpeechRecognition
++ pyttsx3
++ smtplib
++ imaplib
++ sched
++ email.message
+
+
+## License
+This project is licensed under the MIT License - see the [LICENSE] (./LICENSE) file for details.
