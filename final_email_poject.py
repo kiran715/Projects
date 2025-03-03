@@ -33,7 +33,7 @@ tts.setProperty('voice', voices[1].id)
 
 # Email credentials (Replace with your email and app password)
 SENDER_EMAIL = "toby26336@gmail.com"
-APP_PASSWORD = "rrobinwbwvktyrdb"  # Use an App Password for security
+APP_PASSWORD = "APP_PASSWORD"  # Use an App Password for security
 
 def speak(text):
     """Converts text to speech."""
